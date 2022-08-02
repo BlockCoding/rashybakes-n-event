@@ -92,10 +92,122 @@ font-weight: 900;
 }
 .ads{
     max-width: 68vh;
+    padding-top: 3vh;
     border-top-left-radius: 50vh;
     border-bottom-left-radius: 50vh;
     /* border-bottom-right-radius: 10vh; */
 
 float: right;
 margin-top: -64vh;
+}
+.popular {
+    height: 210vh;
+    background: #fff;
+}
+.popular p{
+    text-align: center;
+    color: #f04506;
+    padding-top: 4vh;
+    font-family: 'Pacifico', cursive;
+font-size: 2.4vh;
+opacity: 0.8;
+}
+.popular h1 {
+    text-align: center;
+    padding-top: 2vh;
+    font-family: 'Comfortaa', cursive;
+font-size: 3vh;
+}
+.popular .fresh {
+    display: flex;
+    margin-top:70vh;
+    /* background: #000; */
+    height: 90vh;
+}
+.popular .fresh img{
+    max-width: 90vh;
+    margin-left: 10vh;
+    /* background: #000; */
+    /* padding: 30px; */
+    /* border-radius: 20vh; */
+}
+.popular .developer {
+    display: flex;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+}
+.popular .developer .image {
+background: #fff5f2;
+height: 60vh;
+width: 42vh;
+border-bottom-right-radius: 9vh;
+}
+.popular .developer .image img {
+    width: 34vh;
+    /* width: 60vh; */
+    height: 36vh;
+border-bottom-right-radius: 9vh;
+justify-content: center;
+align-items: center;
+margin: auto;
+padding-top:3vh;
+text-align: center;
+display: flex;
+
+}
+/* .popular .developer .image img:hover{
+ 
+} */
+.popular .developer .image .spt{
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 3vh;
+}
+.popular .developer .image button {
+    background: #da3e06;
+    border: none;
+    color: white;
+    padding:14px;
+    border-radius: 8px;
+    margin-top: 3vh;
+    width: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    text-align: center;
+    display: flex;
+}
+.popular .fresh .fresh-content {
+    padding-left: 37vh;
+    /* width: 90vh; */
+    text-align: left;
+    padding-top: 20vh;
+    padding-right: 14vh;
+}
+.popular .fresh .fresh-content p{
+    text-align: left;
+}
+.popular .fresh .fresh-content h1{
+    /* width: 0vh; */
+    font-weight:bolder;
+    text-align: left;
+    font-size: 3vh;
+
+}
+.popular .fresh .fresh-content button{
+    background: #da3e06;
+    border: none;
+    color: white;
+    padding:14px;
+    border-radius: 8px;
+    margin-top: 3vh;
+    width: 20vh;
+}
+.popular .fresh .fresh-content b{
+ font-weight: 300;
+ font-size: 2vh;
+
 }
