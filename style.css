@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Roboto:ital@0;1&display=swap');
+/* delicous opacity */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
+/* for the content in the main */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
+*{
+  padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+ font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+    background:#f2f2f2;
+    height: 9vh;
+}
+li, a, button {
+    font-size: 16px;
+    color: #000;
+}
+.logo{
+    cursor: pointer;
+    color:#da3e06;
+    font-weight:bold;
+    font-size: 19px;
+}
+.nav_links li{
+ display: inline-block;
+ padding: 0px 20px;
+}
+header button {
+    background: #da3e06;
+    border: none;
+    color: white;
+    padding:13px;
+    border-radius: 8px;
+}
+.main {
+    background:#ebcdc4;
+    height: 90%;
+}
+.main h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 20vh;
+    padding-left: 15vh;
+    padding-top: 6vh;
+    opacity: 0.1;
+    color: #da3f0665;
+    animation: aniMal .8s infinite alternate;
+}
+@keyframes aniMal {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(0.9);
+    }
+}
+.main .cake h2{
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Comfortaa', cursive;
+    
+    /* padding-left: 20vh; */
+    font-size: 8vh;
+    margin-top: -11vh;
+font-weight: 900;
+}
+.cake {
+    padding-left: 20vh;
+
+}
+.main .cake p{
+    /* padding-left: 20vh; */
+    width: 80vh;
+    padding-top: 2vh;
+}
+.main .cake button {
+    width: 20vh;
+    height: 5vh;
+    background:#ee4506;
+    border: none;
+    border-radius: 1vh;
+    color: #fff;
+    
+}
+.ads{
+    max-width: 68vh;
+    border-top-left-radius: 50vh;
+    border-bottom-left-radius: 50vh;
+    /* border-bottom-right-radius: 10vh; */
+
+float: right;
+margin-top: -64vh;
+}
