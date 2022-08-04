@@ -497,5 +497,26 @@ footer form input[type="submit"]{
 }
 /* ipad screen size */
 @media only screen and (max-width: 768px ) {
-    
+    header button {
+        display: none;
+    }
+    header {
+    padding: 30px 7%;
+    }
+    .nav_links li a{
+        display: none;
+    }
+    .main .ads {
+        display: none;
+    } 
+    .main h1{
+        padding-left: 2vh;
+        font-size: 15vh;
+    }
+    .cake {
+        padding-left: 4vh;
+    }
+    .main .cake h2{
+
+    }
 }
