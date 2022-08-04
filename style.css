@@ -98,7 +98,7 @@ font-weight: 900;
 }
 .ads{
     max-width: 68vh;
-    /* padding-top: 1vh; */
+    padding-top: 3vh;
     border-top-left-radius: 50vh;
     border-bottom-left-radius: 50vh;
     /* border-bottom-right-radius: 10vh; */
@@ -232,7 +232,7 @@ display: flex;
 }
 .features #features-id{
     float: right;
-    margin-top: -12vh;
+    margin-top: -9vh;
 }
 .features p{
     text-align: center;
@@ -304,7 +304,7 @@ text-align: center;
     font-family: 'Pacifico', cursive;
 }
 .testimonial{
-    height: 90vh;
+    height: 50vh;
     background: #fff;
 }
 .testimonial p{
@@ -320,23 +320,74 @@ text-align: center;
     color: #000;
 font-family: 'Comfortaa', cursive;
 }
+.testimonial .client-say{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 3vh;
+    padding-top: 5vh;
+
+}
+.testimonial .client-say .say-talk{
+    width: 56vh;
+    height: 20vh;
+    border-radius: 3vh;
+    padding-left: 4vh;
+    background: #000;
+    color: #ffff;
+}
+.testimonial .client-say .say-talk h4{
+    /* padding-left: 4vh; */
+    padding-top: 2vh;
+    font-size: 2vh;
+    padding-right: 4vh;
+}
+.testimonial .client-say .say-talk i{
+font-size:2.5vh;
+color:#da3e06;
+padding-top: 1vh;
+
+}
+.testimonial .client-say .say-talk #border h5{
+ font-weight: 500;
+ text-align:left;
+ padding-left: 6vh;
+ margin-top: -4vh;
+ font-size: 2vh;
+ 
+}
+.testimonial .client-say .say-talk #border img {
+    border-radius: 30vh;
+    max-width: 5vh;
+    /* height: 10vh; */
+}
 footer {
     display: flex;
-    height: 58vh;
+    height: 50vh;
     background: #EBCDC4;
     justify-content:center;
     align-items: center;
-gap: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    gap: 3vh;
 }
 footer .cake_main {
+    margin: auto;
     height: 30vh;
-    width: 30vh;
+    width: 39vh;
     /* background: red; */
 
+
+}
+footer #same{
+    height: 30vh;
+    /* background: red; */
+    width: 30vh;
 }
 footer .cake_main h2 {
     text-align: left;
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     font-weight: lighter;
   opacity: 0.8;
     
@@ -347,7 +398,7 @@ footer .cake_main a{
     display: grid;
   padding-top: 2vh;
   color: #222;
-  font-size: 2vh;
+  font-size: 1.8vh;
   opacity: 0.8;
 }
 footer .cake_main a:hover {
@@ -357,13 +408,94 @@ footer .cake_main a:hover {
 
 }
 footer .cake_main #number{
-    color:#FF8553;
-    font-size: 4vh;
+    padding: 6px;
+    height: 6vh;
+    font-weight: bolder;
+    color: #fff;
+    width: 30vh;
+background:#EE4506;
+    border-radius: 0.5vh;
+    /* background: red; */
+    border: none;
+    opacity: none;
 
 }
+footer .cake_main #number:hover{
+
+    box-shadow: 4px 10px 14px -5px #dcbbb1;
+}
+
 footer b{
     display: flex;
     margin-top:40vh;
     margin-left: -19vh;
     text-align: center;
+}
+.cake_main span {
+    display: flex;
+    gap: 1vh;
+}
+footer .cake_main span img{
+    max-width: 6vh;
+    background: #000;
+    padding: 7px;
+    border-radius: 10vh;
+}
+footer span .logo {
+    font-size: 2.5vh;
+    /* display: flex; */
+    color: black;
+    padding-top: 2vh;
+  opacity: 0.8;
+
+}
+footer .cake_main b{
+    width: 58vh;
+    margin-top: 2vh;
+    text-align:left;
+    font-size: 1.3vh;
+    opacity: 0.8;
+    padding-left: 50%;
+}
+footer .cake_main i{
+    font-size: 3vh;
+    background:#da3e06;
+    padding: 7px;
+    color: #fff;
+    margin-top: 2vh;
+    border-radius: 10vh;
+}
+footer .cake_main i:hover{
+    opacity: 0.8;
+}
+footer form input[type="email"]:focus{
+    width: 25vh;
+    outline:none;
+    border: 2px solid #da3e06;
+
+}
+footer form input[type="email"]{
+    height: 4vh;
+    width: 15vh;
+    border-radius: 0.5vh;
+    border: none;
+}
+footer form input[type="submit"]{
+    padding: 8px;
+    height: 4vh;
+    font-weight: bolder;
+    color: #fff;
+    width: 10vh;
+
+    border-radius: 0.5vh;
+    background: red;
+    border: none;
+}
+/* phone screen size */
+@media only screen and (max-width: 600px ) {
+
+}
+/* ipad screen size */
+@media only screen and (max-width: 768px ) {
+    
 }
