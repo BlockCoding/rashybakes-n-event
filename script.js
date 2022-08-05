@@ -37,3 +37,7 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+
+function Unable() {
+  alert("Unable to display");
+}

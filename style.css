@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=Fira+Sans:ital,wght@0,400;0,500;1,400&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&family=Open+Sans:wght@300;500&family=Oswald:wght@200;300;400&family=Pacifico&family=Roboto:ital@0;1&display=swap');
-*{ 
+*{
     padding: 0;
  margin: 0;
  box-sizing: border-box;
@@ -70,7 +70,7 @@ header button {
 .main .cake h2{
     /* font-family: 'Oswald', sans-serif; */
     font-family: 'Comfortaa', cursive;
-    
+
     /* padding-left: 20vh; */
     font-size: 8vh;
     margin-top: -11vh;
@@ -92,16 +92,19 @@ font-weight: 900;
     border: none;
     border-radius: 1vh;
     color: #fff;
-    
+
 }
 .main .cake button:hover{
     box-shadow: 4px 10px 14px -5px #da3e06;
 }
 .ads{
     max-width: 68vh;
-    /* padding-top: 3vh; */
+    padding-top: 3.3vh;
     border-top-left-radius: 50vh;
     border-bottom-left-radius: 50vh;
+    /* border-left: 7px solid #000; */
+    border-bottom: 2px solid #dcbbb1;
+
     /* border-bottom-right-radius: 10vh; */
 
 float: right;
@@ -136,6 +139,7 @@ font-size: 3vh;
     /* max-width: 10vh; */
    min-width: 90vh;
     margin-left: 5vh;
+    /* padding-top: 20vh; */
     /* background: #000; */
     /* padding: 30px; */
     /* border-radius: 20vh; */
@@ -149,30 +153,39 @@ font-size: 3vh;
 }
 .popular .developer .image {
 background: #fff5f2;
-height: 60vh;
-width: 42vh;
-border-bottom-right-radius: 9vh;
+height: 63vh;
+width: 37vh;
+/* border-bottom-right-radius: 9vh; */
 }
 .popular .developer .image img {
     width: 34vh;
     /* width: 60vh; */
-    height: 36vh;
-border-bottom-right-radius: 9vh;
+    /* height: 36vh;
+border-bottom-right-radius: 9vh; */
 justify-content: center;
 align-items: center;
 margin: auto;
-padding-top:3vh;
+/* padding-top:3vh; */
 text-align: center;
 display: flex;
-
+border: 4px solid #dcbbb1;
 }
 /* .popular .developer .image img:hover{
- 
+
 } */
 .popular .developer .image .spt{
     text-align: center;
     padding-top: 1vh;
-    font-size: 3vh;
+    font-size: 2vh;
+}
+.popular .developer .image .amount_display{
+    color:#da3e06;
+    justify-content: center;
+    display: flex;
+    padding-top: 1.2vh;
+    align-items: center;
+
+    
 }
 .popular .developer .image button {
     background: #da3e06;
@@ -181,7 +194,7 @@ display: flex;
     padding:14px;
     border-radius: 8px;
     margin-top: 3vh;
-    width: 20vh;
+    width: 30vh;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -209,7 +222,7 @@ display: flex;
     font-size: 3vh;
 
 }
-.popular .fresh .fresh-content button{
+.popular .fresh .fresh-content .story{
     background: #da3e06;
     border: none;
     color: white;
@@ -217,6 +230,16 @@ display: flex;
     border-radius: 8px;
     margin-top: 3vh;
     width: 20vh;
+}
+.popular .fresh .fresh-content #preview {
+    /* width: vh; */
+    background: #da3e06;
+    border: none;
+    color: white;
+    padding:14px;
+    border-radius: 8px;
+    margin-top: 3vh;
+
 }
 .popular .fresh .fresh-content button:hover{
     box-shadow: 4px 10px 14px -5px #da3e06;
@@ -229,11 +252,11 @@ display: flex;
 .features{
     background: #ebcdc4;
     height: 70vh;
-    margin-top: -5vh;
+    margin-top: 58vh;
 }
 .features #features-id{
     float: right;
-    margin-top: -11vh;
+    margin-top: -9vh;
 }
 .features p{
     text-align: center;
@@ -241,14 +264,14 @@ display: flex;
     padding-top: 9vh;
     /* font-family: 'Pacifico', cursive; */
     font-family: 'Pacifico', cursive;
-    
+
 font-size: 2.4vh;
 opacity: 0.8;
 }
 .features h2{
     /* font-family: 'Oswald', sans-serif; */
     /* font-family: 'Comfortaa', cursive; */
-    
+
     /* padding-left: 20vh; */
     font-size: 2.7vh;
     margin-top: -11vh;
@@ -265,7 +288,6 @@ text-align: center;
     margin: auto;
     justify-content: center;
     align-items: center;
-    
     gap: 3vh;
     padding-left: 7vh;
     padding-right: 7vh;
@@ -274,14 +296,28 @@ text-align: center;
     margin-top: 7vh;
 } */
 .features .our .our_img{
-    background: white;
+    background: rgba(255, 255, 255, 0.374);
     width: 43vh;
     border-radius: 1vh;
-    height: 42vh;
+    height: 37vh;
     margin-top: 7vh;
+    color: black;
+    /* opacity: 0; */
 }
+.features .our .our_img h5{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 2vh;
+    font-weight: 400;
+    padding-left:2vh;
+    padding-right: 2vh;
+    opacity: 0.8;
+}
+
 .features .our .our_img:hover{
-    box-shadow: 4px 10px 14px -5px #dcbbb1;
+    box-shadow: 4px 8px 12px -10px #da3e06;
+    background: white;
+
 }
 .features .our .our_img img {
     display:flex;
@@ -289,20 +325,22 @@ text-align: center;
     align-items: center;
     margin: auto;
     /* box-shadow: 4px 10px 14px -5px #dcbbb1; */
-    width: 16vh;
-    background: transparent;
-    padding-top: vh;
-
-    
-
+    width: 7vh;
+    /* background: white; */
+    padding-top: 4vh;
+    /* padding: 4vh; */
 }
-.features .our .our_img h2{
-    text-align: center;
+.features .our .our_img h3{
     color: #ff8553;
-    padding-top: 9vh;
-    font-size: 2vh;
+    text-align: center;
+    color: #000;
+    opacity: 0.8;
+    padding-top: 2vh;
+    font-size: 2.4vh;
     /* font-family: 'Pacifico', cursive; */
-    font-family: 'Pacifico', cursive;
+    /* font-family: 'Pacifico', cursive; */
+}
+.features .our .our_img:hover{
 }
 .testimonial{
     height: 50vh;
@@ -356,7 +394,7 @@ padding-top: 1vh;
  padding-left: 6vh;
  margin-top: -4vh;
  font-size: 2vh;
- 
+
 }
 .testimonial .client-say .say-talk #border img {
     border-radius: 30vh;
@@ -381,6 +419,9 @@ footer .cake_main {
 
 
 }
+#ogo{
+    display: none;
+}
 footer #same{
     height: 30vh;
     /* background: red; */
@@ -391,7 +432,7 @@ footer .cake_main h2 {
     font-size: 2.3vh;
     font-weight: lighter;
   opacity: 0.8;
-    
+
 
 }
 
@@ -500,12 +541,12 @@ footer form input[type="submit"]{
   z-index: 99;
   border: none;
   outline: none;
-  background: #EBCDC4;
+  background: #ffff;
   cursor: pointer;
   border-radius: 24vh;
   padding: 2vh;
   box-shadow: 4px 10px 14px -5px rgba(0,0,0,0.15);
-  
+
   }
   #myBtn img{
     width: 3vh;
@@ -513,14 +554,42 @@ footer form input[type="submit"]{
   #removeBg {
     display: none;
   }
+  /* .subscribe{
+    display: none;
+  } */
 /* phone screen size */
+.subscribe h4{
+    display: none;
+}
+.subscribe button{
+    display: none;
+
+}
+.popular #show-pop{
+    display: none;
+}
+.popular #show-pops{
+    display: none;
+}
+#showoff{
+    display: none;
+}
+.history {
+    display: none;
+}
 @media only screen and (max-width: 600px ) {
- 
+
+    /* .main .cake p{
+        width: 20vh;
+    } */
 }
 /* ipad screen size */
 @media only screen and (max-width: 768px ) {
     header button {
         display: none;
+    }
+    #showoff{
+        display:contents;
     }
     header {
     padding: 30px 7%;
@@ -530,7 +599,7 @@ footer form input[type="submit"]{
     }
     .main .ads {
         display: none;
-    } 
+    }
     .main h1{
         padding-left: 2vh;
         font-size: 15vh;
@@ -542,17 +611,55 @@ footer form input[type="submit"]{
     width: 50vh;
 
     }
+    .popular {
+        /* text-align: center; */
+    }
+    .popular h1{
+        display: none;
+    }
+    .popular #show-pop{
+        display: contents;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
     .main .cake h2{
         font-size: 7vh;
 
     }
     .popular .developer {
     display:grid;
+    display: none;
     }
     .popular {
     height: 350vh;
 
     }
+
+    .popular #show-pops {
+text-align: center;
+/* display: flex; */
+justify-content: center;
+margin: auto;
+align-items: center;
+display: contents;
+padding-left: 3vh;
+font-size: 2vh;
+
+
+    }
+   .popular .history {
+        background: #000;
+        /* display: contents; */
+        width: 40vh;
+    display: contents;
+padding: 8vh;
+    }
+
+.popular .history {
+    display: contents;
+}
     .popular .fresh {
            height: 90vh;
     }
@@ -564,9 +671,6 @@ footer form input[type="submit"]{
    height: 60vh;
 display: none;
     }
-    .popular .fresh .fresh-content b{
-
-    }   
     .popular .fresh .fresh-content {
         padding-top: 9vh;
         padding-right: 4vh;
@@ -580,4 +684,29 @@ display: none;
       .features{
         display: none;
       }
+      .testimonial{
+        display: none;
+      }
+      .subscribe{
+        /* display: contents; */
+        height: 20vh;
+        background: #000;
+        text-align:center;
+      }
+      .subscribe h4{
+        color: #fff;
+        font-size: 4vh;
+        /* text-align: center; */
+padding-top: 5vh;
+      }
+      .subscribe h4{
+        display: contents;
+    }
+    .subscribe button{
+        display: contents;
+/* color: #fff; */
+background: red;
+/* padding: 10vh; */
+
+    }
 }
