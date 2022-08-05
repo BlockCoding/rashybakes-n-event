@@ -577,11 +577,8 @@ footer form input[type="submit"]{
 .history {
     display: none;
 }
-@media only screen and (max-width: 600px ) {
-
-    /* .main .cake p{
-        width: 20vh;
-    } */
+#Our{
+    display: none;
 }
 /* ipad screen size */
 @media only screen and (max-width: 768px ) {
@@ -592,7 +589,7 @@ footer form input[type="submit"]{
         display:contents;
     }
     header {
-    padding: 30px 7%;
+        padding: 30px 7%;
     }
     .nav_links li a{
         display: none;
@@ -608,8 +605,8 @@ footer form input[type="submit"]{
         padding-left: 4vh;
     }
     .main .cake p{
-    width: 50vh;
-
+        width: 50vh;
+        
     }
     .popular {
         /* text-align: center; */
@@ -629,12 +626,12 @@ footer form input[type="submit"]{
 
     }
     .popular .developer {
-    display:grid;
+        display:grid;
     display: none;
     }
     .popular {
-    height: 350vh;
-
+        height: 350vh;
+        
     }
 
     .popular #show-pops {
@@ -661,7 +658,7 @@ padding: 8vh;
     display: contents;
 }
     .popular .fresh {
-           height: 90vh;
+        height: 90vh;
     }
     #hidden{
         display: none;
@@ -674,22 +671,22 @@ display: none;
     .popular .fresh .fresh-content {
         padding-top: 9vh;
         padding-right: 4vh;
-    padding-left: 5vh;
+        padding-left: 5vh;
     margin-top: -2vh;
-
+    
     }
     #removeBg {
         display:content;
-      }
+    }
       .features{
         display: none;
       }
       .testimonial{
-        display: none;
+          display: none;
       }
       .subscribe{
-        /* display: contents; */
-        height: 20vh;
+          display: contents;
+          height: 20vh;
         background: #000;
         text-align:center;
       }
@@ -698,15 +695,111 @@ display: none;
         font-size: 4vh;
         /* text-align: center; */
 padding-top: 5vh;
-      }
-      .subscribe h4{
-        display: contents;
-    }
-    .subscribe button{
+}
+.subscribe button{
         display: contents;
 /* color: #fff; */
 background: red;
 /* padding: 10vh; */
 
     }
+    #Our {
+        display: none;
+    }
+    #most{
+     display: none;   
+    }
+}
+/* phone size */
+ @media only screen and (max-width:375px) {
+    .logo{
+        font-size: 2vh;
+        color: black;
+    }   
+    .main .cake p{
+            font-size: 1.7vh;
+            width: 30vh;
+        }
+        .main .cake h2{
+            font-size: 4.4vh;
+            margin-top: -2vh;
+        }
+        .main h1{
+            font-size: 10vh;
+    font-family: 'Comfortaa', cursive;
+            margin-top: -4vh;
+        }
+.main #exp {
+    display: none;
+}
+.main {
+    height: 60vh;
+}
+.popular #show-pops{
+    color: gray;
+    text-align: left;
+    justify-content:left;
+    align-items: left;
+    display: flex;
+    padding-top: 3vh;
+    padding-left: 1vh;
+}
+#ceo{
+    height: auto;
+    max-width: 100%;
+}
+#dev{
+    display: contents;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+#Our {
+    display: contents;
+    /* padding-top: 3vh; */
+    font-size: 2vh;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+#most{
+    display: contents;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+#cake-sweet{
+    display: contents;
+}
+.fresh-content {
+    background: #000;
+    color: #fff;
+    height: 60vh;
+
+}
+.story{
+    display: none;
+}
+page-last{
+    display: contents;
+}
+#last-page{
+    display: none
+}
+.free{
+    background:red;
+    height: 50vh;
+    margin-top: 70vh;
+
+}
+
+#ckae{
+    display: none;
+}
+/* .features {
+    display: contents;
+    margin-top: 140vh;
+} */
 }
